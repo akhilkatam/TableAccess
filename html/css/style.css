@@ -156,3 +156,20 @@ input {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+   table.dataTable td.sorting_1 { border:1px lightgrey; }
+   table.dataTable td{  border:1px lightgrey;}
+   table.dataTable tr.odd { background-color: #004d40;  border:1px lightgrey;}
+   table.dataTable tr.even{ background-color: #00695c; border:1px lightgrey; }
+
+
+    #example_length{
+      color: white;
+    }
+    #example_filter{
+      color: white;
+    }
+    #example_info{
+      color: white;
+    }
