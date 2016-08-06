@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <title>Activity - Login</title>
         <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8" />
+    		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+
   </head>
 
   <body>
 
-    <body class="align" style="background-image:url(back.jpg); background-size:cover; ">
+    <body class="align" style="background-image:url(banner.jpg); background-size:cover; ">
+
+      <div id="wrapper">
+        <header id="header">
+
+          &nbsp<strong><a href="login.html"><u>Example</u></a> &nbsp
+          <span><a href="login.html" class="logo">Home</a></span>&nbsp
+          <a href="#" class="logo">Other</a>
+        </strong>
+        </header>
+      </div>
 
   <div class="site__container" style="text-align: center">
 
-
     <div class="grid__container">
-      <font size="10" color="white" face="Arial"><font size="10" color="#00695C" face="Arial" >L</font><font size="10" color="white" face="Arial" >ogin</font></font>
-      <br><br>
+      <font size="10" color="white" face="Arial" >Login</font>
 
-      <form action="/" method="post" class="form form--login">
+
+      <form action="/" method="post">
 
         <div class="form__field" style="margin-left: auto; margin-right: auto;">
-          <label class="fontawesome-user" for="login__username" ><span class="hidden">Username</span></label>
           <input type="text" class="form__input" name="username" placeholder="Username" required>
         </div>
 
         <div class="form__field" style="margin-left: auto; margin-right: auto;">
-          <label class="fontawesome-user" for="login__username" ><span class="hidden">Password</span></label>
           <input type="password" class="form__input" name="password" placeholder="Password" required>
         </div>
 

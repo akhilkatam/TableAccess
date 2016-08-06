@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <title>Activity - Details</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet"String type="text/css"String href="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.css"String/>
   </head>
-<body style="background-image:url(back.jpg); background-size:cover; " >
+<body style="background-image:url(banner.jpg); background-size:cover;" >
+  <div id="wrapper">
+    <header id="header">
+
+      &nbsp<strong><a href="login.html"><u>Example</u></a> &nbsp
+      <span><a href="login.html" class="logo">Home</a></span>&nbsp
+      <a href="#" class="logo">Other</a>
+    </strong>
+    </header>
+  </div>
   <br>
   <br>
   <p align="center">
-        <font size="10" color="white" face="Arial"><font size="10" color="#00695C" face="Arial" >T</font><font size="10" color="white" face="Arial" >able</font></font>
+        <font size="10" color="white" face="Arial" >Table</font></font>
   </p>
   <br><br>
   <font color="white">
+  <div width="80%">
   <table width="100%" id="example" cellspacing="0">
     <thead>
       <tr>
@@ -28,6 +40,7 @@
         <th>ff</th>
         <th>gg</th>
         <th>hh</th>
+        <th>view</th>
       </tr>
     </thead>
     <tfoot>
@@ -42,22 +55,24 @@
         <th>ff</th>
         <th>gg</th>
         <th>hh</th>
+        <th>View</th>
       </tr>
     </tfoot>
     <tbody>
 
     </tbody>
   </table>
+</div>
 <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
   <script>
 
   $("#example").dataTable({
   "aaData":[
+    ["1","abc","three","four","five","ix","seven","eight","nine","ten",1],
     ["1","abc","three","four","five","six","seven","eight","nine","ten"],
     ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
+    ["1","abc","three","four","five","six","seven","eight","nine","ten",1],
     ["1","abc","three","four","five","six","seven","eight","nine","ten"],
     ["1","abc","three","four","five","six","seven","eight","nine","ten"],
     ["1","abc","three","four","five","six","seven","eight","nine","ten"],
