@@ -20,11 +20,9 @@
     </header>
   </div>
   <br>
-  <br>
   <p align="center">
         <font size="10" color="white" face="Arial" >Table</font></font>
   </p>
-  <br><br>
   <font color="white">
   <div width="80%">
   <table width="100%" id="example" cellspacing="0">
@@ -67,29 +65,60 @@
 <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
   <script>
 
-  $("#example").dataTable({
-  "aaData":[
-    ["1","abc","three","four","five","ix","seven","eight","nine","ten",1],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten",1],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","abc","three","four","five","six","seven","eight","nine","ten"],
-    ["1","xyz","three","four","five","six","seven","eight","nine","ten"]
 
-  ],
-  "aoColumnDefs":[{
-        "sTitle":"Site name"
-      , "aTargets": [ "site_name" ]
-  }]
+      var testData = [
+        {
+            one: "one",
+            "two": "one",
+            "three": "one",
+            "four": "one",
+            "five": "one",
+            "six": "one",
+            "seven": "one",
+            "eight": "one",
+            "nine": "one",
+            "ten": false,
+            eleven: {name: ""}
+        },
+        {
+            "one": "one",
+            "two": "one",
+            "three": "one",
+            "four": "one",
+            "five": "one",
+            "six": "one",
+            "seven": "one",
+            "eight": "one",
+            "nine": "one",
+            "ten": true,
+            eleven: {name: ""}
+          }
+      ]
 
-});
+
+    $('#example').DataTable(
+      {
+          "aaData": testData,
+          "aoColumns": [
+              { "mDataProp": "one" },
+              { "mDataProp": "two" },
+              { "mDataProp": "three" },
+              { "mDataProp": "four" },
+              { "mDataProp": "five" },
+              { "mDataProp": "six" },
+              { "mDataProp": "seven" },
+              { "mDataProp": "eight" },
+              { "mDataProp": "nine" },
+              { "mDataProp": "ten"},
+              { "mDataProp": "eleven.name"},
+          ],
+          "fnCreatedRow": function( nRow, aData, iDataIndex ) {
+            if(true)
+            {
+              $('td:eq(10)', nRow).append("<div class='col1d'><button class='button fit small'>View</button></div>");
+            }
+       }
+      } );
 
   </script>
 
