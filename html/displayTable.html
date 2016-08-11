@@ -41,21 +41,6 @@
         <th>view</th>
       </tr>
     </thead>
-    <tfoot>
-      <tr>
-        <th>Sl No.</th>
-        <th>Name</th>
-        <th>a</th>
-        <th>b</th>
-        <th>cc</th>
-        <th>dd</th>
-        <th>ee</th>
-        <th>ff</th>
-        <th>gg</th>
-        <th>hh</th>
-        <th>View</th>
-      </tr>
-    </tfoot>
     <tbody>
 
     </tbody>
@@ -77,7 +62,7 @@
             "seven": "one",
             "eight": "one",
             "nine": "one",
-            "ten": false,
+            ten: false,
             eleven: {name: ""}
         },
         {
@@ -90,9 +75,22 @@
             "seven": "one",
             "eight": "one",
             "nine": "one",
-            "ten": true,
+            ten: true,
             eleven: {name: ""}
-          }
+          },
+          {
+              "one": "one",
+              "two": "one",
+              "three": "one",
+              "four": "one",
+              "five": "one",
+              "six": "one",
+              "seven": "one",
+              "eight": "one",
+              "nine": "one",
+              ten: true,
+              eleven: {name: ""}
+            }
       ]
 
 
@@ -113,7 +111,7 @@
               { "mDataProp": "eleven.name"},
           ],
           "fnCreatedRow": function( nRow, aData, iDataIndex ) {
-            if(true)
+            if(aData.ten==true)
             {
               $('td:eq(10)', nRow).append("<div class='col1d'><button class='button fit small'>View</button></div>");
             }
