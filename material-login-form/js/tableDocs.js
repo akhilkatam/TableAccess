@@ -13,9 +13,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 2,
@@ -31,9 +31,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -49,9 +49,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -67,9 +67,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -85,9 +85,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -103,9 +103,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -121,9 +121,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -139,9 +139,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -157,9 +157,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -175,9 +175,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -193,9 +193,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -211,9 +211,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -229,9 +229,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -247,9 +247,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -265,9 +265,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -283,9 +283,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -301,9 +301,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -319,9 +319,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -337,9 +337,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 2,
@@ -355,9 +355,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -373,9 +373,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -391,9 +391,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -409,9 +409,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -427,9 +427,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -445,9 +445,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -463,9 +463,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -481,9 +481,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -499,9 +499,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -517,9 +517,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -535,9 +535,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -553,9 +553,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -571,9 +571,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -589,9 +589,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -607,9 +607,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -625,9 +625,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
       num: 1,
@@ -643,9 +643,9 @@ var testData = [
       wages: 56.2,
       cost: 70.0,
       numkg: 10.0,
-      wagespaid: 100.0, total: 178.5,
+      wagespaid: 100.0,
       remarks: "Remark1",
-      space: " ", edited: true
+      edited: true
   },
   {
     num: 2,
@@ -662,8 +662,7 @@ var testData = [
     cost: 20.0,
     numkg: 12.0,
     wagespaid: 120.0,
-    total: 156.0,
     remarks: "Remark2",
-    space: " ", edited: false
+    edited: false
   }
 ]

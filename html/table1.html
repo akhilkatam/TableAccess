@@ -5,7 +5,7 @@
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.7/css/jquery.dataTables.css"/>
+  <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
 </head>
 <body>
   <font size="4">
@@ -31,6 +31,7 @@
         <th>Wages Paid</th>
         <th>Total</th>
         <th>Remarks</th>
+        <th>Changes</th>
       </tr>
     </thead>
     <tbody>
@@ -46,6 +47,11 @@
 
       $('#example').DataTable(
         {
+          "bJQueryUI": true,
+                  "bPaginate": false,
+                  "sScrollY": "530px",
+                  "sScrollCollapse": true,
+                  "sPaging": false,
             "aaData": testData,
             "aoColumns": [
                 { "mDataProp": "num" },
@@ -62,12 +68,14 @@
                 { "mDataProp": "cost"},
                 { "mDataProp": "numkg"},
                 { "mDataProp": "wagespaid"},
-                { "mDataProp": "remarks"}
+                { "mDataProp": "total"},
+                { "mDataProp": "remarks"},
+                { "mDataProp": "space"}
             ],
             "fnCreatedRow": function( nRow, aData, iDataIndex ) {
               if(aData.edited==true)
               {
-                $('td:eq(15)', nRow).append("<div class='col1d'><button class='btnintable'>View</button></div>");
+                $('td:eq(16)', nRow).append("<div class='col1d'><button class='btnintable'>View</button></div>");
               }
          }
         } );
