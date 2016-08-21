@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.7/css/jquery.dataTables.css"/>
   </head>
-  <body>
+  <body style="margin:0px;padding:0px;overflow:hidden">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div >
             <div class="navbar-header">
@@ -28,7 +28,7 @@
       <div class="col-md-1"></div>
       <div class="col-md-10" style="text-align: center;">
     <button class='btn' id="target1">View</button>
-    <button class='btn'>View</button>
+    <a class='btn' href="table1.html" target="targetframe">View</a>
     <button class='btn'>View</button>
     <button class='btn'>View</button>
     <button class='btn'>View</button>
@@ -41,76 +41,16 @@
     <div class="col-md-1"></div>
   </div>
     <br><br><br><br><br>
-    <font size="4">
-    <div id="div1" class="row" style="visibility: hidden;">
-      <div class="col-md-1"></div>
-    <div id="tableContainer" class="col-md-10">
-    <table width="100%" id="example" cellspacing="0">
-      <thead>
-        <tr>
-          <th>No.</th>
-          <th>Time</th>
-          <th>Activity</th>
-          <th>Sub Activity</th>
-          <th>Location</th>
-          <th>Crop Type</th>
-          <th>Sup.</th>
-          <th>Writer</th>
-          <th>Labour Type</th>
-          <th>No. of Labour</th>
-          <th>Wages/kg</th>
-          <th>Cost/kg</th>
-          <th>No. of kg</th>
-          <th>Wages Paid</th>
-          <th>Total</th>
-          <th>Remarks</th>
-        </tr>
-      </thead>
-      <tbody>
-      </table>
-    </div>
-    <dic class="col-md-1"></div>
-    </div>
-    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
-    <script src="js/tableDocs.js"></script>
-    <script>
 
-
-        $('#example').DataTable(
-          {
-              "aaData": testData,
-              "aoColumns": [
-                  { "mDataProp": "num" },
-                  { "mDataProp": "time" },
-                  { "mDataProp": "act" },
-                  { "mDataProp": "subact" },
-                  { "mDataProp": "loc" },
-                  { "mDataProp": "crop" },
-                  { "mDataProp": "sup" },
-                  { "mDataProp": "writer" },
-                  { "mDataProp": "labour" },
-                  { "mDataProp": "numlabour"},
-                  { "mDataProp": "wages"},
-                  { "mDataProp": "cost"},
-                  { "mDataProp": "numkg"},
-                  { "mDataProp": "wagespaid"},
-                  { "mDataProp": "remarks"},
-                  { "mDataProp": " "}
-              ],
-              "fnCreatedRow": function( nRow, aData, iDataIndex ) {
-                if(aData.edited==true)
-                {
-                  $('td:eq(15)', nRow).append("<div class='col1d'><button class='btnintable'>View</button></div>");
-                }
-           }
-          } );
-
-  </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <script src="js/tables.js"></script>
+  <div>
+    <iframe src="" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" width="100%" height="150%"/>
+  </div>
+
+
 </font>
   </body>
 </html>
