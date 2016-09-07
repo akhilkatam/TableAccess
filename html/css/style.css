@@ -480,57 +480,29 @@ body {
 color: #FFFFFF;
 }
 .btn {
-  background: #525252;
-  background-image: -webkit-linear-gradient(top, #525252, #000000);
-  background-image: -moz-linear-gradient(top, #525252, #000000);
-  background-image: -ms-linear-gradient(top, #525252, #000000);
-  background-image: -o-linear-gradient(top, #525252, #000000);
-  background-image: linear-gradient(to bottom, #525252, #000000);
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Courier New;
+  font-family: Arial;
   color: #ffffff;
   font-size: 20px;
+  background: #000000;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #000000;
-  background-image: -webkit-linear-gradient(top, #000000, #525252);
-  background-image: -moz-linear-gradient(top, #000000, #525252);
-  background-image: -ms-linear-gradient(top, #000000, #525252);
-  background-image: -o-linear-gradient(top, #000000, #525252);
-  background-image: linear-gradient(to bottom, #000000, #525252);
+  background: #4f4f4f;
   text-decoration: none;
 }
 .btnintable {
-  background: #525252;
-  background-image: -webkit-linear-gradient(top, #525252, #000000);
-  background-image: -moz-linear-gradient(top, #525252, #000000);
-  background-image: -ms-linear-gradient(top, #525252, #000000);
-  background-image: -o-linear-gradient(top, #525252, #000000);
-  background-image: linear-gradient(to bottom, #525252, #000000);
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Courier New;
+  font-family: Arial;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
+  background: #000000;
   padding: 0px 10px 0px 10px;
   text-decoration: none;
 }
 
 .btnintable:hover {
-  background: #000000;
-  background-image: -webkit-linear-gradient(top, #000000, #525252);
-  background-image: -moz-linear-gradient(top, #000000, #525252);
-  background-image: -ms-linear-gradient(top, #000000, #525252);
-  background-image: -o-linear-gradient(top, #000000, #525252);
-  background-image: linear-gradient(to bottom, #000000, #525252);
+  background: #4f4f4f;
   text-decoration: none;
 }
 
