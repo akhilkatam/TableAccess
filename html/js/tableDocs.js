@@ -51,7 +51,7 @@ var testData = [
       numkg: 10.0,
       wagespaid: 100.0, total: 178.5,
       remarks: "Remark1",
-      space: " ", edited: true
+      space: " ", edited: false
   },
   {
       num: 1,
@@ -105,7 +105,7 @@ var testData = [
       numkg: 10.0,
       wagespaid: 100.0, total: 178.5,
       remarks: "Remark1",
-      space: " ", edited: true
+      space: " ", edited: false
   },
   {
       num: 1,
@@ -123,7 +123,7 @@ var testData = [
       numkg: 10.0,
       wagespaid: 100.0, total: 178.5,
       remarks: "Remark1",
-      space: " ", edited: true
+      space: " ", edited: false
   },
   {
       num: 1,
@@ -141,7 +141,7 @@ var testData = [
       numkg: 10.0,
       wagespaid: 100.0, total: 178.5,
       remarks: "Remark1",
-      space: " ", edited: true
+      space: " ", edited: false
   },
   {
       num: 1,
